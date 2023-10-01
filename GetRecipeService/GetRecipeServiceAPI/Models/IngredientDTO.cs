@@ -2,10 +2,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace GetRecipeServiceAPI.Models;
 
-public class Ingredient : FoodItem
+public record IngredientDTO : FoodItemDTO
 {
-    public Ingredient(){}
-    public Ingredient(int ingredientId, float quantity, string unit, int foodItemId, string name, string type, string description){
+    public IngredientDTO(){}
+    public IngredientDTO(int ingredientId, float quantity, string unit, int foodItemId, string name, string type, string description){
         
         this.IngredientId = ingredientId;
         this.Quantity = quantity;

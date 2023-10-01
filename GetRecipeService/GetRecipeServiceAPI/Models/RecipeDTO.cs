@@ -4,10 +4,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace GetRecipeServiceAPI.Models;
 
 [Table("recipes")]
-public class RecipeDTO
+public record RecipeDTO
 {
     public RecipeDTO(){}
-    public RecipeDTO(int recipeId, string name, string type, string description, string instruction, int imageId, List<Ingredient> ingredientList){
+    public RecipeDTO(int recipeId, string name, string type, string description, string instruction, int imageId, List<IngredientDTO> ingredientList){
         
         this.RecipeId = recipeId;
         this.Name = name;
@@ -40,6 +40,6 @@ public class RecipeDTO
     public int? ImageId { get; set; }
     [Required]
     [Column("ingredientlist")]
-    public List<Ingredient>? IngredientList { get; set; }
+    public List<IngredientDTO>? IngredientList { get; set; }
 
 }

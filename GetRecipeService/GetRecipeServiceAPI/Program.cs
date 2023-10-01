@@ -1,6 +1,3 @@
-using Postgrest.Attributes;
-using Postgrest.Models;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

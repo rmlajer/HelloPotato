@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mrlaj\\Programming\\Hobby\\LazyFood\\getrecipeservice\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj": {}
+    "C:\\Users\\Wodinaz\\Programming\\Hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrlaj\\Programming\\Hobby\\LazyFood\\getrecipeservice\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj": {
+    "C:\\Users\\Wodinaz\\Programming\\Hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrlaj\\Programming\\Hobby\\LazyFood\\getrecipeservice\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Wodinaz\\Programming\\Hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj",
         "projectName": "GetRecipeServiceAPI",
-        "projectPath": "C:\\Users\\mrlaj\\Programming\\Hobby\\LazyFood\\getrecipeservice\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj",
-        "packagesPath": "C:\\Users\\mrlaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrlaj\\Programming\\Hobby\\LazyFood\\getrecipeservice\\GetRecipeServiceAPI\\obj\\",
+        "projectPath": "C:\\Users\\Wodinaz\\Programming\\Hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj",
+        "packagesPath": "C:\\Users\\Wodinaz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wodinaz\\Programming\\Hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mrlaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Wodinaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,14 +51,6 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
-            },
-            "postgrest-csharp": {
-              "target": "Package",
-              "version": "[3.2.7, )"
-            },
-            "supabase-csharp": {
-              "target": "Package",
-              "version": "[0.13.3, )"
             }
           },
           "imports": [
@@ -80,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
