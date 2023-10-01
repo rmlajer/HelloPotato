@@ -7,6 +7,17 @@ namespace GetRecipeServiceAPI.Models;
 public record RecipeDTO
 {
     public RecipeDTO(){}
+
+    public RecipeDTO(string name, string type, string description, string instruction, int imageId, List<IngredientDTO> ingredientList){
+        //Constructor without ID
+        this.Name = name;
+        this.Type = type;
+        this.Description = description;
+        this.Instruction = instruction;
+        this.ImageId = imageId;
+        this.IngredientList = ingredientList;
+
+    }
     public RecipeDTO(int recipeId, string name, string type, string description, string instruction, int imageId, List<IngredientDTO> ingredientList){
         
         this.RecipeId = recipeId;

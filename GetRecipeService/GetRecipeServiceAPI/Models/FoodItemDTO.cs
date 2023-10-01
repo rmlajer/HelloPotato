@@ -6,7 +6,7 @@ public record FoodItemDTO
 
     public FoodItemDTO(string name, string type, string description)
     {
-
+        //Constructor without ID
         this.Name = name;
         this.Type = type;
         this.Description = description;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wodinaz\\Programming\\Hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj": {}
+    "C:\\Users\\Wodinaz\\programming\\hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wodinaz\\Programming\\Hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj": {
+    "C:\\Users\\Wodinaz\\programming\\hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wodinaz\\Programming\\Hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Wodinaz\\programming\\hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj",
         "projectName": "GetRecipeServiceAPI",
-        "projectPath": "C:\\Users\\Wodinaz\\Programming\\Hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj",
+        "projectPath": "C:\\Users\\Wodinaz\\programming\\hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\GetRecipeServiceAPI.csproj",
         "packagesPath": "C:\\Users\\Wodinaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wodinaz\\Programming\\Hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\obj\\",
+        "outputPath": "C:\\Users\\Wodinaz\\programming\\hobby\\HelloPotato\\GetRecipeService\\GetRecipeServiceAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wodinaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,25 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.151, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.11, )"
             },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.6, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
