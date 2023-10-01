@@ -1,0 +1,58 @@
+[
+    {
+        "RecipeId": 1,
+        "Name": "TestRecipe1",
+        "Type": "Asian",
+        "Description": "Description of a test Recipe",
+        "Instruction": "Instruction for a test Recipe",
+        "ImageId": 1,
+        "IngredientList": [
+            {
+                "IngredientId": 1,
+                "Name": "TestIngredient1",
+                "Type": "TestIngredientType1",
+                "Description": "Description of a test ingredient",
+                "Unit": "Description of a test ingredient",
+                "Quantity": 1.0,
+                "FoodItemId": 1
+            },
+            {
+                "IngredientId": 2,
+                "Name": "TestIngredient2",
+                "Type": "TestIngredientType2",
+                "Description": "Description of a test ingredient",
+                "Unit": "Description of a test ingredient",
+                "Quantity": 2.5,
+                "FoodItemId": 2
+            }
+        ]
+    },
+    {
+        "RecipeId": 2,
+        "Name": "TestRecipe2",
+        "Type": "Asian",
+        "Description": "Description of a test Recipe",
+        "Instruction": "Instruction for a test Recipe",
+        "ImageId": 2,
+        "IngredientList": [
+            {
+                "IngredientId": 3,
+                "Name": "TestIngredient3",
+                "Type": "TestIngredientType3",
+                "Description": "Description of a test ingredient",
+                "Unit": "Description of a test ingredient",
+                "Quantity": 1.0,
+                "FoodItemId": 1
+            },
+            {
+                "IngredientId": 4,
+                "Name": "TestIngredient4",
+                "Type": "TestIngredientType4",
+                "Description": "Description of a test ingredient",
+                "Unit": "Description of a test ingredient",
+                "Quantity": 2.5,
+                "FoodItemId": 2
+            }
+        ]
+    }
+]

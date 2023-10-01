@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ov4VQjy1ti00yKdPbYN/bHcuOdw46mWYLIp3e9jqCcA=",
+  "Source": "GetRecipeServiceAPI",
+  "BasePath": "_content/GetRecipeServiceAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
